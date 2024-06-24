@@ -1,4 +1,4 @@
-# lowchart: Incident Detection and Resolution
+# Flowchart: Incident Detection and Resolution
 
 flowchart TD
     A[Issue Detected] --> B[Automated Monitoring Alert]
@@ -46,15 +46,15 @@ Root Cause Identification: Database team identified an unoptimized SQL query fro
 ## Resolution:
 Reverted the problematic update.
 Restarted the database server to clear backlog operations.
-### System Normalization: System performance returned to normal, resolving the outage.
-Corrective Measures
-### Optimize Existing Queries: Review and optimize all current database queries.
-### Implement Code Review Process: Focus on database operations during code reviews.
-### Conduct Load Testing: Simulate high traffic scenarios to assess performance impact.
-### Enhance Monitoring and Alerts: Add granular alerts for database performance.
-### Deploy Testing Environment: Set up a staging environment mirroring production.
-### Update Indexing: Ensure proper indexing for all tables with complex queries.
-### Refine Alerting System: Update the alerting system for earlier notification of performance issues.
-### Documentation Update: Document the incident and update the runbook.
+##### System Normalization: System performance returned to normal, resolving the outage.
+## Corrective Measures
+##### Optimize Existing Queries: Review and optimize all current database queries.
+##### Implement Code Review Process: Focus on database operations during code reviews.
+##### Conduct Load Testing: Simulate high traffic scenarios to assess performance impact.
+##### Enhance Monitoring and Alerts: Add granular alerts for database performance.
+##### Deploy Testing Environment: Set up a staging environment mirroring production.
+##### Update Indexing: Ensure proper indexing for all tables with complex queries.
+##### Refine Alerting System: Update the alerting system for earlier notification of performance issues.
+##### Documentation Update: Document the incident and update the runbook.
 
 This flowchart provides a visual representation of the incident detection, investigation, resolution steps, and the corrective measures planned to prevent future occurrences.
